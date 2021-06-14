@@ -6,7 +6,8 @@
  */
 void selection_sort(int *array, size_t size)
 {
-	int temp, i, i2, tracker;
+	int temp, tracker;
+	unsigned int i, i2;
 
 	for (i = 0; i < size; i++)
 	{
